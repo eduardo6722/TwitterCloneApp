@@ -1,0 +1,9 @@
+app/node_modules
+app/*.log
+
+frontend/node_modules
+frontend/*.log
+frontend/dist
+
+server/node_modules
+server/*.log

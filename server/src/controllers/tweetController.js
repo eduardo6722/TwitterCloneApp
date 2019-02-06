@@ -27,7 +27,7 @@ module.exports = {
       { $set: { content: req.body.content } },
       { new: true }, (err, tweet) => {
         if(err)
-          return res.status(500).send(err)
+          return res.status(400).send(err)
         res.json(tweet)
       })
       

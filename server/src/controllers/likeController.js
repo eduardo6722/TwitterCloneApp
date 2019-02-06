@@ -9,7 +9,7 @@ module.exports = {
       { $set: { likes: tweet.likes + 1 } }, 
       { new: true }, (err, tweet) => {
         if(err)
-          return res.status(500).send(err)
+          return res.status(400).send(err)
         
         req.io.emit('like', tweet)  
 

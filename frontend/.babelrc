@@ -5,6 +5,10 @@
     ],
     "plugins": [
         "babel-plugin-transform-class-properties",
-        "transform-object-rest-spread"
+        "transform-object-rest-spread",
+        ["transform-runtime", {
+            "polyfill": false,
+            "regenerator": true
+        }]
     ]
 }

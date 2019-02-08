@@ -10,7 +10,8 @@ const Tweet = (props) => {
 
   const handleLike = async () => {
     await api.post(`/likes/${tweet._id}`)
-      .then(res => console.log(res.data))
+      .catch(err => console.log(err))
+      
   }
 
   return ( 

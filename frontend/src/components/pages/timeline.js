@@ -14,7 +14,7 @@ class Timeline extends Component {
     author: ''
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     this.handleSockets()
     this.getTweets()
   }

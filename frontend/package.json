@@ -4,7 +4,7 @@
   "description": "Simple React project start",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot --host 192.168.15.7",
+    "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack-dev-server --mode production --open --hot",
     "make": "webpack --mode production"
   },

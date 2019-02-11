@@ -6,4 +6,4 @@ frontend/*.log
 frontend/dist
 
 server/node_modules
-server/*.log
+server/src
